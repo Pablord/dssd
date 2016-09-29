@@ -7,8 +7,10 @@ $client = new Google_Client();
 $client->setClientId('937444844992-d2rkg439cva6ekb4dap2fd7cui3im3ik.apps.googleusercontent.com');
 $client->setClientSecret('FqWA-hy9gcObNuBxSWwkOvFC');
 //$client->setRedirectUri('http://elpsico.com/distri/loggedin.php');
-$client->setRedirectUri('https://infinite-everglades-72824.herokuapp.com/');
+//$client->setRedirectUri('https://infinite-everglades-72824.herokuapp.com/');
+$client->setRedirectUri('http://elpsico.com/distri/');
 
 $client->setScopes(array(
     'https://www.googleapis.com/auth/drive'
 ));
+

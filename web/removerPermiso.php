@@ -31,5 +31,5 @@ $fileId = $_GET['fileid'];
   }
 } finally {
   $service->getClient()->setUseBatch(false);
- header('Location: http://elpsico.com/distri/permisos.php?id='.$fileId.'&nombre='.$nombre);
+ header('Location: https://dssd-grupo12.herokuapp.com/permisos.php?id='.$fileId.'&nombre='.$nombre);
 }

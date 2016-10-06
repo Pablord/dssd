@@ -41,5 +41,5 @@ try {
  
 
   
-  header('Location: http://elpsico.com/distri/permisos.php?id='.$fileId.'&nombre='.$nombre);
+  header('Location: https://dssd-grupo12.herokuapp.com/permisos.php?id='.$fileId.'&nombre='.$nombre);
 }

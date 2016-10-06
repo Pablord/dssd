@@ -33,7 +33,7 @@ if(isset($_POST['filename'])){
           'uploadType' => 'multipart'
         ));
 
-    header('Location: http://elpsico.com/distri/listFiles.php');
+    header('Location: https://dssd-grupo12.herokuapp.com/listFiles.php');
 }else{
   echo "<h3>Crear Archivo</h3><form action='crearArchivo.php' method='post'>
 Nombre Archivo: <input type='text' name='filename'><br> 

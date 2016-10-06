@@ -9,7 +9,7 @@ if (!$client->getAccessToken() && !isset($_SESSION['token'])) {
     $authUrl = $client->createAuthUrl();
     print "<a class='login' href='$authUrl'>Conectar</a>";
 }else{
-	header('Location: http://elpsico.com/distri/listFiles.php');
+	header('Location: https://dssd-grupo12.herokuapp.com/listFiles.php');
 }
 
 ?> 

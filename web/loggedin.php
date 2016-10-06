@@ -7,4 +7,4 @@ require("initClient.php");
 
 $client->authenticate($_GET['code']);
 $_SESSION['token'] = $client->getAccessToken();
-header('Location: http://elpsico.com/distri/listFiles.php');
+header('Location: https://dssd-grupo12.herokuapp.com/listFiles.php');
